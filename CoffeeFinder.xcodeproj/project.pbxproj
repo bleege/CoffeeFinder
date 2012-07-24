@@ -20,6 +20,7 @@
 		A2A6FCAD15BE2468004981DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FC8E15BE2468004981DB /* Foundation.framework */; };
 		A2A6FCB515BE2468004981DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2A6FCB315BE2468004981DB /* InfoPlist.strings */; };
 		A2A6FCB815BE2468004981DB /* CoffeeFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A6FCB715BE2468004981DB /* CoffeeFinderTests.m */; };
+		A2A6FCC215BE2B9B004981DB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FCC115BE2B9B004981DB /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +38,22 @@
 		A2A6FC8C15BE2468004981DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A2A6FC8E15BE2468004981DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A2A6FC9015BE2468004981DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A2A6FC9415BE2468004981DB /* CoffeeFinder-Info.plist */ = {isa = PBXFileReference; path = "CoffeeFinder-Info.plist"; sourceTree = "<group>"; };
+		A2A6FC9415BE2468004981DB /* CoffeeFinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoffeeFinder-Info.plist"; sourceTree = "<group>"; };
 		A2A6FC9615BE2468004981DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2A6FC9815BE2468004981DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A2A6FC9A15BE2468004981DB /* CoffeeFinder-Prefix.pch */ = {isa = PBXFileReference; path = "CoffeeFinder-Prefix.pch"; sourceTree = "<group>"; };
-		A2A6FC9B15BE2468004981DB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2A6FC9A15BE2468004981DB /* CoffeeFinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoffeeFinder-Prefix.pch"; sourceTree = "<group>"; };
+		A2A6FC9B15BE2468004981DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A2A6FC9C15BE2468004981DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A2A6FC9E15BE2468004981DB /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A2A6FC9E15BE2468004981DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A2A6FC9F15BE2468004981DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A2A6FCA215BE2468004981DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		A2A6FCA915BE2468004981DB /* CoffeeFinderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeFinderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A6FCAA15BE2468004981DB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A2A6FCB215BE2468004981DB /* CoffeeFinderTests-Info.plist */ = {isa = PBXFileReference; path = "CoffeeFinderTests-Info.plist"; sourceTree = "<group>"; };
+		A2A6FCB215BE2468004981DB /* CoffeeFinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoffeeFinderTests-Info.plist"; sourceTree = "<group>"; };
 		A2A6FCB415BE2468004981DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A2A6FCB615BE2468004981DB /* CoffeeFinderTests.h */ = {isa = PBXFileReference; path = CoffeeFinderTests.h; sourceTree = "<group>"; };
+		A2A6FCB615BE2468004981DB /* CoffeeFinderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoffeeFinderTests.h; sourceTree = "<group>"; };
 		A2A6FCB715BE2468004981DB /* CoffeeFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeFinderTests.m; sourceTree = "<group>"; };
+		A2A6FCC115BE2B9B004981DB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A6FCC215BE2B9B004981DB /* MapKit.framework in Frameworks */,
 				A2A6FC8D15BE2468004981DB /* UIKit.framework in Frameworks */,
 				A2A6FC8F15BE2468004981DB /* Foundation.framework in Frameworks */,
 				A2A6FC9115BE2468004981DB /* CoreGraphics.framework in Frameworks */,
@@ -103,6 +106,7 @@
 				A2A6FC8C15BE2468004981DB /* UIKit.framework */,
 				A2A6FC8E15BE2468004981DB /* Foundation.framework */,
 				A2A6FC9015BE2468004981DB /* CoreGraphics.framework */,
+				A2A6FCC115BE2B9B004981DB /* MapKit.framework */,
 				A2A6FCAA15BE2468004981DB /* SenTestingKit.framework */,
 			);
 			name = Frameworks;

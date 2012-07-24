@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
 @interface ViewController : UIViewController
+
+
+@property (nonatomic, retain) IBOutlet MKMapView *mapView;
+
+- (IBAction)handleStumptownClick:(id)sender;
 
 @end
