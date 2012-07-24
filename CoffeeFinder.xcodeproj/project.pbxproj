@@ -21,6 +21,7 @@
 		A2A6FCB515BE2468004981DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2A6FCB315BE2468004981DB /* InfoPlist.strings */; };
 		A2A6FCB815BE2468004981DB /* CoffeeFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A6FCB715BE2468004981DB /* CoffeeFinderTests.m */; };
 		A2A6FCC215BE2B9B004981DB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FCC115BE2B9B004981DB /* MapKit.framework */; };
+		A2A6FCC415BE3DDC004981DB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FCC315BE3DDC004981DB /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		A2A6FCB615BE2468004981DB /* CoffeeFinderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoffeeFinderTests.h; sourceTree = "<group>"; };
 		A2A6FCB715BE2468004981DB /* CoffeeFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeFinderTests.m; sourceTree = "<group>"; };
 		A2A6FCC115BE2B9B004981DB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A2A6FCC315BE3DDC004981DB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A6FCC415BE3DDC004981DB /* CoreLocation.framework in Frameworks */,
 				A2A6FCC215BE2B9B004981DB /* MapKit.framework in Frameworks */,
 				A2A6FC8D15BE2468004981DB /* UIKit.framework in Frameworks */,
 				A2A6FC8F15BE2468004981DB /* Foundation.framework in Frameworks */,
@@ -106,6 +109,7 @@
 				A2A6FC8C15BE2468004981DB /* UIKit.framework */,
 				A2A6FC8E15BE2468004981DB /* Foundation.framework */,
 				A2A6FC9015BE2468004981DB /* CoreGraphics.framework */,
+				A2A6FCC315BE3DDC004981DB /* CoreLocation.framework */,
 				A2A6FCC115BE2B9B004981DB /* MapKit.framework */,
 				A2A6FCAA15BE2468004981DB /* SenTestingKit.framework */,
 			);
